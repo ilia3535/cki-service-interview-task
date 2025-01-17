@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertTrue;
 
 public class Test01 {
 
@@ -45,7 +46,7 @@ public class Test01 {
 
         //check if clicked
 
-        assertEquals(rememberMeCheckBox.isSelected(), true);
+        assertTrue(rememberMeCheckBox.isSelected());
 
     }
 }
